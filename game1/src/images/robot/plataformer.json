@@ -1,0 +1,20 @@
+{"frames": {
+
+"platformertiles.png":
+{
+	"frame": {"x":1,"y":1,"w":256,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":96},
+	"sourceSize": {"w":256,"h":96}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "plataformer.png",
+	"format": "RGBA8888",
+	"size": {"w":258,"h":98},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ba60f4a8fc7e3ab7e126a4570d75a326:62135a6d2bbff3f8240dda17ca85f6c7:7d8153e73d804058eb9156624ed57f7c$"
+}
+}
