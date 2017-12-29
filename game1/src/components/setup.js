@@ -15,7 +15,11 @@
       TextStyle = PIXI.TextStyle;
   
   let state, explorer, treasure, blobs, chimes, exit, player, dungeon,
-    door, healthBar, message, gameScene, gameOverScene, enemies, id;
+    door, healthBar, message, gameScene, gameOverScene, enemies, id, texture, element;
+
+  let frameRate = 1000/30;
+  let frames = [];
+  let frame = 0;
   
   let app = new PIXI.Application({
     width: 512,
@@ -37,7 +41,22 @@
     .load(setup);
   
   function setup() {
+    gameScene = new Container();
+    app.stage.addChild(gameScene);
+    
     let textures = PIXI.loader.resources['./images/robot/robot.json'].textures;
-    let sprite = new Sprite(textures['robowalk00.png']);
+    // render(textures['robowalk00.png'])
+    for (texture in textures) {
+      frames.push(textures[texture]);
+    }    
+    setInterval(loop, frameRate)
+  }
+
+  function loop() {
+    gameScene.removeChild(element);
+    texture = frames[frame];
+    element = new Sprite(texture);
+    gameScene.addChild(element);
+    frame = (frame + 1) % frames.length;
   }
 })();
