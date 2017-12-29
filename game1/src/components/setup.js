@@ -29,7 +29,8 @@
     resolution: 1
   });
   
-  app.renderer.backgroundColor = 0x061639;
+  // app.renderer.backgroundColor = 0x061639;
+  app.renderer.backgroundColor = 0xffffff;
   app.renderer.view.style.position = 'absolute';
   app.renderer.view.style.display = 'block';
   app.renderer.autoResize = true;
