@@ -1,0 +1,20 @@
+{"frames": {
+
+"braidrun01.png":
+{
+	"frame": {"x":1,"y":1,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":1,"y":1,"w":70,"h":77},
+	"sourceSize": {"w":70,"h":77}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "braidrun00.png",
+	"format": "RGBA8888",
+	"size": {"w":72,"h":79},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8f0995492645b76e98beb161d1be31dd:691e017f4239f38c2349c66650315767:99ed24b9596dda729459991358daeac6$"
+}
+}

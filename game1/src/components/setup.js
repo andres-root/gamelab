@@ -4,6 +4,7 @@
 
 (function() {
   const PIXI = require('pixi.js');
+  const ATLAS_PATH = './images/braid/atlas/braid-atlas.json';
   
   //Aliases
   let Application = PIXI.Application,
@@ -14,7 +15,7 @@
       Text = PIXI.Text,
       TextStyle = PIXI.TextStyle;
   
-  let state, explorer, treasure, blobs, chimes, exit, player, dungeon,
+  let state, explorer, treasure, blobs, chimes, exit, player, terrain,
     door, healthBar, message, gameScene, gameOverScene, enemies, id, texture, element;
 
   let frameRate = 1000/30;
@@ -38,15 +39,19 @@
   document.querySelector('.wrapper').appendChild(app.view);
   
   PIXI.loader
-    .add('./images/robot/robot.json')
+    .add(ATLAS_PATH)
     .load(setup);
   
   function setup() {
     gameScene = new Container();
     app.stage.addChild(gameScene);
+
+    let textures = PIXI.loader.resources[ATLAS_PATH].textures;
+
+    // Load Terrain image
+    terrain = new Sprite(textures['terrain.jpg']);
+    gameScene.addChild(terrain);
     
-    let textures = PIXI.loader.resources['./images/robot/robot.json'].textures;
-    // render(textures['robowalk00.png'])
     for (texture in textures) {
       frames.push(textures[texture]);
     }    

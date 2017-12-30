@@ -1,0 +1,76 @@
+{"frames": {
+
+"catrun00.png":
+{
+	"frame": {"x":1,"y":441,"w":292,"h":438},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":133,"y":25,"w":292,"h":438},
+	"sourceSize": {"w":292,"h":438}
+},
+"catrun01.png":
+{
+	"frame": {"x":589,"y":434,"w":293,"h":425},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":140,"y":29,"w":293,"h":425},
+	"sourceSize": {"w":293,"h":425}
+},
+"catrun02.png":
+{
+	"frame": {"x":885,"y":1,"w":288,"h":398},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":153,"y":33,"w":288,"h":398},
+	"sourceSize": {"w":288,"h":398}
+},
+"catrun03.png":
+{
+	"frame": {"x":590,"y":1,"w":293,"h":424},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":140,"y":29,"w":293,"h":424},
+	"sourceSize": {"w":293,"h":424}
+},
+"catrun04.png":
+{
+	"frame": {"x":1,"y":1,"w":293,"h":438},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":133,"y":25,"w":293,"h":438},
+	"sourceSize": {"w":293,"h":438}
+},
+"catrun05.png":
+{
+	"frame": {"x":295,"y":441,"w":292,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":140,"y":27,"w":292,"h":431},
+	"sourceSize": {"w":292,"h":431}
+},
+"catrun06.png":
+{
+	"frame": {"x":884,"y":427,"w":289,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":149,"y":30,"w":289,"h":410},
+	"sourceSize": {"w":289,"h":410}
+},
+"catrun07.png":
+{
+	"frame": {"x":296,"y":1,"w":292,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":140,"y":27,"w":292,"h":431},
+	"sourceSize": {"w":292,"h":431}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "catrun-sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":1174,"h":1174},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e50c2c384fff69c60b97e3be0445e05d:f222d8e9a9357eebd9bfa3c862af1245:a6bbdd8e70b5451e985b47bcbefcd0cb$"
+}
+}
